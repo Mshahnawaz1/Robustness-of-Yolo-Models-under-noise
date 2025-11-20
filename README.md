@@ -3,8 +3,7 @@
 This project evaluates how image degradation techniques — **Gaussian Noise** and **JPEG Compression** — impact object or face detection performance.
 
 ---
-<embed src="minor-project-report.pdf" width="100%" height="500px" />
-
+[![PDF Preview](https://github.com/Mshahnawaz1/Robustness-of-Yolo8n-Model/blob/main/minor-project-report.jpg)](https://github.com/Mshahnawaz1/Robustness-of-Yolo8n-Model/blob/main/minor-project-report.pdf)
 
 
 
