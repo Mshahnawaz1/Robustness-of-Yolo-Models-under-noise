@@ -22,7 +22,7 @@ def draw_yolo_boxes(results: list, img: np.ndarray) -> np.ndarray:
         num_detections = len(boxes)
         min_conf = boxes.conf.min().item() if hasattr(boxes, 'conf') else None
 
-        print(f"Detections: {num_detections}, Min confidence: {min_conf:.2f}" if min_conf else f"Detections: {num_detections}")
+        # print(f"Detections: {num_detections}, Min confidence: {min_conf:.2f}" if min_conf else f"Detections: {num_detections}")
 
         return annotated_img
     else:

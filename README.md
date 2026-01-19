@@ -2,78 +2,26 @@
 
 This project evaluates how image degradation techniques — **Gaussian Noise** and **JPEG Compression** — impact object or face detection performance.
 
----
+
+
+
+# YOLOv8 Noise Robustness Analysis
+This repository contains research and implementation for a performance analysis of the YOLOv8n model under various real-world noise conditions. The project evaluates how synthetic degradations affect the model's ability to detect humans in diverse environments.
+
+## Overview
+Modern object detectors like YOLOv8 perform exceptionally well on clean benchmark datasets. However, their robustness in safety-critical or low-light environments is often under-explored. This study systematically quantifies the performance degradation of the lightweight YOLOv8n variant when subjected to three common types of image noise.
+
+## Key Objectives
+
+- Evaluate Sensitivity: Quantify the impact of Gaussian, Salt & Pepper, and Poisson noise on detection accuracy.
+
+Identify Failure Points: Determine the "breaking point" thresholds where detection recall collapses.
+
+
+- Analyze Real-World Scenarios: Simulate conditions such as sensor thermal noise, transmission errors, and low-light (photon-limited) imaging.
+
+Link to full report:[here](https://github.com/Mshahnawaz1/Robustness-of-Yolo8n-Model/blob/main/minor-project-report.pdf) 
+
 [![PDF Preview](https://github.com/Mshahnawaz1/Robustness-of-Yolo8n-Model/blob/main/minor-project-report.jpg)](https://github.com/Mshahnawaz1/Robustness-of-Yolo8n-Model/blob/main/minor-project-report.pdf)
 
-
-
-## ⚙️ Setup
-
-### 1. Clone the Repository
-
-``` bash
-git clone https://github.com/Mshahnawaz1/Robustness-of-Yolo8n-Model.git
-```
-``` bash
-cd Robustness-of-Yolo8n-Model
-```
-
-### 2. Create & Activate Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-Activate it:
-
-```
-venv\Scripts\activate
-```
-
-### 3. Install Dependencies
-
-```
-pip install -r requirements.txt
-```
-
----
-
-## 🚀 Run the Analysis
-
-Run the main jupyter file to perform experiments and generate results:
-
----
-
-## 📈 Outputs
-
-- **Visual Plot:** Comparison between original and degraded images
-    
-- **Metrics Plot:** Visualization of Recall and IoU decay under different degradation levels
-    
-
----
-
----
-
-## 📊 Insights
-
-- **JPEG Compression:** Causes a _sharp decline_ in Recall due to blocking artifacts
-    
-- **Gaussian Noise:** Leads to a _gradual performance decay_
-    
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork this repository
-    
-2. Create a new branch
-    
-3. Commit your changes
-    
-4. Push to your branch
-    
-5. Open a Pull Request
+Mohammad Shahnawaz

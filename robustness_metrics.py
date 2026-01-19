@@ -111,4 +111,4 @@ def calculate_robustness_metrics(
     # 2. Average IoU of TPs
     avg_iou = np.mean(true_positive_ious) if true_positive_ious else 0.0
     
-    return recall, avg_iou, true_positives_count
+    return (recall, avg_iou, true_positives_count)
