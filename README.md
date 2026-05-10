@@ -8,7 +8,8 @@
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
 </p>
 
-Note: For full report of study check out [here](https://drive.google.com/file/d/1J1vXp0BMZrFGeHh08riBXSP8he7sfVDo/view?usp=drive_link).
+Paper Link: [here](https://drive.google.com/file/d/1uSUYxJrYZXxdsVS4IGyo_qyc7UnkXiIk/view?usp=sharing).
+Self Link: [here](https://github.com/Mshahnawaz1/Robustness-of-Yolo-Models-under-noise)
 
 A systematic benchmarking study evaluating how modern YOLO object detection models hold up when visual quality is degraded — with a focus on lightweight models designed for resource-constrained devices.
 
